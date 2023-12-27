@@ -223,13 +223,7 @@ footer a:hover {
     article {
         background-color: #383737;
         color: white;
-    }     
-
-    #left_nav_bar li:first-child a, #left_nav_bar li:first-child {
-        background-color: tomato;
-        color: black;
-        font-weight: bold;
-    } 
+    }         
     
     #left_sidebar a:link, #left_sidebar a:active, #left_sidebar a:visited {
         color: white;      
@@ -241,6 +235,13 @@ footer a:hover {
         background-color: #383737 !important;  
         font-weight: normal !important;
     }  
+
+    #left_nav_bar li:first-child a, #left_nav_bar li:first-child {
+        background-color: tomato !important;
+        color: black !important;
+        font-weight: bold !important;
+    }
+
     #about_me {
         border-bottom: 0.25rem solid black;
     }
