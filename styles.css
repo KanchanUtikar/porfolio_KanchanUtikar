@@ -108,7 +108,9 @@ article > div {
     border-bottom: 0.25rem solid #383737;
     line-height: 2rem;  
 }
-
+#about_me h2 {
+    text-align: center;
+}
 #about_me p {
     word-spacing: 0.5rem;
     /* color: #383737; */
