@@ -14,7 +14,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1% 2% 2% 2%;
     color: var(--color-text);
-    background-color: var(--background-color);     
+    background-color: var(--background-color);    
 }
 
 h1 {
@@ -30,8 +30,7 @@ main {
     flex-direction: column;
 }
  
-section {    
-    
+section {        
     display: flex;      
     flex-direction: row;  
     gap: 1rem;  
@@ -76,8 +75,7 @@ section {
 
 #left_sidebar a:link, #left_sidebar a:active, #left_sidebar a:visited {
     color: #383737;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 #left_nav_bar li:first-child a, #left_nav_bar li:first-child {
@@ -225,20 +223,30 @@ footer a:hover {
     article {
         background-color: #383737;
         color: white;
-    }
+    }     
+
+    #left_nav_bar li:first-child a, #left_nav_bar li:first-child {
+        background-color: tomato;
+        color: black;
+        font-weight: bold;
+    } 
+    
     #left_sidebar a:link, #left_sidebar a:active, #left_sidebar a:visited {
         color: white;      
         background-color: #383737;  
+        font-weight: normal;
     }       
-    /* #left_sidebar a:hover {
-        color: white;      
-        background-color: #383737;         
-    }    */
+    #left_nav_bar li:hover a, #left_nav_bar li:hover {
+        color: white !important ;     
+        background-color: #383737 !important;  
+        font-weight: normal !important;
+    }  
     #about_me {
         border-bottom: 0.25rem solid black;
     }
     #left_sidebar {
         gap: 0;
+        height: 100vh;
     }
     
     #main-content div {
@@ -261,4 +269,8 @@ footer a:hover {
     #experience a:link, #experience a:hover, #experience a:active, #experience a:visited {
         color: darkcyan;       
     }    
-} 
+    article > h2 {
+        background-color: darkcyan;
+    }
+}
+
